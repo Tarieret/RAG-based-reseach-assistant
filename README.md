@@ -8,7 +8,7 @@
 
 **What broke:** Early prompt versions let the model answer from its own general medical knowledge when retrieved context was thin, producing fluent but unverifiable claims not traceable to any indexed paper. Fixed by rewriting the system prompt to explicitly refuse to answer beyond the retrieved chunks, rather than trying to filter hallucinated output after generation.
 
-**Metric:** 20 research papers (478 pages) indexed into 2,184 text chunks, with average query response time of 2–5 seconds. *[subject to change post-rerun]*
+**Metric:** 20 research papers (478 pages) indexed into 2,184 text chunks, with average query response time of 2–5 seconds.
 
 ## Overview
 An end-to-end RAG pipeline enabling natural language querying of peer-reviewed medical research papers on brain tumor detection. Users ask questions and receive accurate, citation-grounded answers sourced directly from indexed PDFs, delivered through a FastAPI backend and Streamlit frontend. The idea came out of a Spring 2025 master's-level project on deep learning for brain tumor detection from MRI images, which shifted the focus from individual models toward supporting the research workflow itself.

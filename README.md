@@ -43,6 +43,3 @@ User Query → Streamlit → FastAPI → ChromaDB Retrieval → GPT-4o-mini → 
 
 ## Note
 This project is intended for research and educational use only and is not suitable for clinical or diagnostic decision-making.
-
-## Reflection
-Grounding and citation aren't polish, they're the difference between a demo and a tool someone can trust with research decisions.

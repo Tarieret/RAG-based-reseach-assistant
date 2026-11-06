@@ -1,0 +1,39 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Vector Database
+chroma_db/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documents (PDFs excluded for copyright reasons)
+documents/*.pdf
+
+# Logs
+*.log
+
+# iCloud placeholders & R leftovers
+*.icloud
+.Rhistory
